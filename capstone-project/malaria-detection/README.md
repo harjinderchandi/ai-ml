@@ -47,5 +47,7 @@ Please refer to **model-datasheet.md** file
 
 ## Contact Details
 Harjinder Chandi, Junept Limited
+
 Email: harjinder.chandi@junept.co.uk
+
 LinkedIn: https://www.linkedin.com/in/harjinder-chandi-53a1371a/
