@@ -2,6 +2,10 @@
 ## Author
 Harjinder Chandi, Junept Limited
 
+Email: harjinder.chandi@junept.co.uk
+
+LinkedIn: https://www.linkedin.com/in/harjinder-chandi-53a1371a/
+
 ## Model Details
 This document compares four object detection models based on Faster R-CNN with a ResNet-50 backbone and Feature Pyramid Network (FPN), trained for malaria cell detection and classification. The models differ in FPN version (v1 or v2) and loss function (Weighted Cross-Entropy or Weighted Focal Loss). These models detect and classify malaria cell types in microscopic blood smear images using a Faster R-CNN architecture with a ResNet-50 FPN V1 or V2 backbone. These are trained on the P. vivax malaria dataset from Kaggle, leveraging annotated bounding boxes and cell categories. These models address severe class imbalance using weighted loss functions and oversampling strategies, aiming for robust detection of both common and rare cell types.
 
