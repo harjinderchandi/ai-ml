@@ -22,7 +22,7 @@ Please refer to **model-card.md** file
 ## Model Datasheet
 Please refer to **model-datasheet.md** file
 
-## HYPERPARAMETER OPTIMSATION
+## Hyperparameter Optimisation
 - Epochs: 60
 - Optimizer: SGD (learning rate: 0.0001, momentum: 0.9, weight decay: 0.0005)
 - Details are documented in **model-card.md** file
