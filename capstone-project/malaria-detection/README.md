@@ -1,4 +1,4 @@
-# Malaria Cell Detection Models: General Audience Overview
+# Malaria Cell Detection and Classification Models
 
 This project uses four advanced artificial intelligence models to automatically detect and classify different types of cells in images of human blood smears. The models are trained to recognize red blood cells and several malaria parasite stages, helping to speed up and improve malaria diagnosis. By analyzing thousands of images, these models learn to spot patterns that may be hard for the human eye to catch. The results show that the models can accurately identify both common and rare cell types, making them a valuable tool for medical professionals and researchers fighting malaria.
 
@@ -19,3 +19,9 @@ Please refer to **model-datasheet.md** file
 
 ## Model Dataset
 https://www.kaggle.com/datasets/orvile/p-vivax-malaria-infected-human-blood-smears
+
+## References
+- [Fast R-CNN (Girshick, 2015)](https://arxiv.org/abs/1504.08083)
+- [Faster R-CNN (Ren et al., 2016)](https://arxiv.org/abs/1506.01497)
+- [Focal Loss for Dense Object Detection (Lin et al., 2017)](https://arxiv.org/abs/1708.02002)
+- [Benchmarking Detection Transfer Learning with Vision Transformers (Li et al., 2021)](https://arxiv.org/abs/2111.11429)
