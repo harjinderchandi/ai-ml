@@ -6,7 +6,9 @@ This report documents the evolution of the codebase developed for the Bayesian O
 
 ### Initial codebase
 
-The initial codebase was taken from the **Required activity 12.2: Jupyter Notebook on Bayesian optimisation**. The structure and approach were inspired by common Bayesian optimization workflows, with code adapted from Jupyter Notebook on Bayesian optimisation, documentation for Gaussian Processes and acquisition functions. The decision to use this code as a starting point was based on the knowledge gained from Module 12, its flexibility, extensibility, and proven effectiveness for black-box optimization tasks, as was described in the competition brief. The codebase was designed to be flexible and extensible, allowing for rapid experimentation with different strategies and configurations.
+The initial codebase was taken from the **Required activity 12.2: Jupyter Notebook on Bayesian optimisation**. The structure and approach were inspired by common Bayesian optimization workflows, with code adapted from Jupyter Notebook on Bayesian optimisation, documentation for Gaussian Processes and acquisition functions. The decision to use this code as a starting point was based on the knowledge gained from Module 12, its flexibility, extensibility, and proven effectiveness for black-box optimization tasks, as was described in the competition brief. The codebase was designed to be flexible and extensible, allowing for rapid experimentation with different strategies and configurations. 
+
+**NOTE:** Jupyter notebooks for each function are available in directories named **function_1, function_2, function_3, function_4, function_5, function_6, function_7 and function_8**
 
 ### Code modification
 
