@@ -17,11 +17,11 @@ This document compares four object detection models based on Faster R-CNN with a
 
 ### Training Details
 | Model Name                                      | Pretrained Weights | Loss Weighting                | Optimizer           |
-|-------------------------------------------------|--------------------|-------------------------------|---------------------|
-| faster-rcnn-resnet50-fpn-weighted-CE-loss       | COCO               | Class weights (inverse freq.) | SGD with momentum   |
-| faster-rcnn-resnet50-fpn-weighted-focal-loss    | COCO               | Focal loss + class weights    | SGD with momentum   |
-| faster-rcnn-resnet50-fpn-v2-weighted-CE-loss    | COCO               | Class weights (inverse freq.) | SGD with momentum   |
-| faster-rcnn-resnet50-fpn-v2-weighted-focal-loss | COCO               | Focal loss + class weights    | SGD with momentum   |
+|-------------------------------------------------|--------------------|-----------------------------------------------------|---------------------|
+| faster-rcnn-resnet50-fpn-weighted-CE-loss       | COCO               | Cross-Entropy loss + Class weights (inverse freq.)  | SGD with momentum   |
+| faster-rcnn-resnet50-fpn-weighted-focal-loss    | COCO               | Focal loss + class weights (inverse freq.)          | SGD with momentum   |
+| faster-rcnn-resnet50-fpn-v2-weighted-CE-loss    | COCO               | Cross-Entropy loss + Class weights (inverse freq.)  | SGD with momentum   |
+| faster-rcnn-resnet50-fpn-v2-weighted-focal-loss | COCO               | Focal loss + class weights (inverse freq.)          | SGD with momentum   |
 
 ### Model Differences and Comparison
 | Feature                | v1 Models                                   | v2 Models                                   |
@@ -79,7 +79,7 @@ This document compares four object detection models based on Faster R-CNN with a
 - Use as a sole diagnostic tool without human oversight
 
 ### License
-CC BY-NC-SA 4.0 
+CC BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en
 Attribution-NonCommercial-ShareAlike 4.0 International
 
 ## Limitations
