@@ -1,4 +1,4 @@
-# Model Datasheet: Malaria Cell Detection Dataset and Models
+# Model Datasheet: Malaria Cell Detection and Classification
 
 ## Motivation
 **For what purpose was the dataset created?**
@@ -9,6 +9,7 @@
 
 **Any other comments?**
 - The dataset is used in academic and applied research for malaria detection.
+
 
 ## Composition
 **What do the instances represent?**
@@ -56,6 +57,7 @@
 **Any other comments?**
 - The dataset is intended for research and educational use.
 
+
 ## Collection process
 **How was the data acquired?**
 - Images were collected from laboratory-prepared blood smears, digitized using microscopy, and annotated by experts.
@@ -94,6 +96,7 @@
 **Any other comments?**
 - Preprocessing steps are documented in the project code and notebooks.
 
+
 ## Uses
 **What other tasks could the dataset be used for?**
 - Cell segmentation, classification, biomedical image analysis, training other AI models for blood cell detection.
@@ -107,6 +110,7 @@
 
 **Any other comments?**
 - The dataset is best used for research and educational purposes.
+
 
 ## Distribution
 **Will the dataset be distributed to third parties?**
@@ -123,6 +127,7 @@
 
 **Any other comments?**
 - Users should review the Kaggle license before use.
+
 
 ## Maintenance
 **Who will be maintaining the dataset?**
