@@ -28,7 +28,8 @@ Please refer to **model-datasheet.md** file
 - Details are documented in **model-card.md** file
 
 ## Results
- ### Evaluation Results Comparison on Test Dataset
+ 
+  ### Evaluation Results Comparison on Test Dataset
 
     | Model Name                                      | Precision  | Recall  | F1 Score  | Accuracy  |
     |-------------------------------------------------|------------|---------|-----------|-----------|
@@ -36,7 +37,9 @@ Please refer to **model-datasheet.md** file
     | faster-rcnn-resnet50-fpn-weighted-focal-loss    | 0.902      | 0.930   | 0.916     | 0.845     |
     | faster-rcnn-resnet50-fpn-v2-weighted-CE-loss    | 0.885      | 0.938   | 0.911     | 0.836     |
     | faster-rcnn-resnet50-fpn-v2-weighted-focal-loss | 0.885      | 0.931   | 0.908     | 0.831     |
-    |-------------------------------------------------|------------|---------|-----------|-----------|
+
+    *Minority Class F1 refers to the average F1 score across rare cell types (trophozoite, ring, schizont, gametocyte, leukocyte, difficult).  
+    v2 and focal loss models show improved performance, especially on minority classes.*
   
   Details are documented in **model-card.md** file
   
