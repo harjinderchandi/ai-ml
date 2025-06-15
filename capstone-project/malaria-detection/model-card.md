@@ -160,7 +160,7 @@ All models were evaluated on a held-out test set of annotated blood smear images
 - All models trained and evaluated on the same dataset and metrics
 - Code, training details (including loss and ROC curve visulization charts) and evaluation results (including Confusion Matrix, Precision, Recall, F1 Score, Accuracy and Visulizaions for cell detection and classification) are available in corresponding Jupyter notebooks
 
-### Model Updates
+### Model Maintainance & Updates
 These 4 models will be maintained by Junept Limited as required.
 
 ## References
