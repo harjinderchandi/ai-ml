@@ -1,4 +1,4 @@
-# Model Card: Faster R-CNN ResNet50 FPN Models for Malaria Cell Detection
+# Model Card: Faster R-CNN ResNet50 FPN Models for Malaria Cell Detection and Classification
 ## Author
 Harjinder Chandi, Junept Limited
 
