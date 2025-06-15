@@ -16,3 +16,6 @@ Please refer to **model-card.md** file
 
 ## Model Datasheet
 Please refer to **model-datasheet.md** file
+
+## Model Dataset
+https://www.kaggle.com/datasets/orvile/p-vivax-malaria-infected-human-blood-smears
